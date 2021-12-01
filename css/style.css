@@ -1,0 +1,979 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    height:120px;
+    align-items: center;
+    border-bottom: 5px solid #1293d4;
+}
+h1{
+    color:white;
+    padding: 0 100px 0 0;
+}
+.conter1{
+
+    display: flex;
+    align-items: center;
+   
+}
+.conter1 ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    
+}
+
+.conter1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    display:flex;
+    background: url(../image/cabecera.jpg) 0 -400px;
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+  justify-content: center;
+  flex-direction: column;
+  
+
+}
+.titulo1{
+    display: flex;
+    font-size: 80px;
+ 
+}
+.p1{
+    font-size: 27px;
+    color: white;
+    
+
+}
+
+.container2{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    background-color: black;
+   height: 120px;
+    align-items: center;
+ 
+   
+}
+.container2 h2{
+    font-size: 26px;
+    padding: 0  200px 0 0;
+}
+
+   
+
+
+.hidel2 input{
+    width: 250px;
+    height: 38px;
+
+}
+
+.hidel2 a{
+    
+    text-decoration: none;
+    border: 2px solid transparent;
+    background-color: rgb(255, 76, 44) ;
+    color:white;
+    padding:11px ;
+    
+    
+}
+.containerP{
+    display:flex;
+    height: 350px;
+    justify-content:space-evenly;
+    align-items: center;
+   
+    
+}
+
+.containerP img{
+    height: 100px;
+}
+
+.containerP h2{
+    font-size: 20px;
+}
+.hijo1P{
+  
+    font-size: 120%;
+    text-align: center;
+   
+}
+footer{
+    height: 40px;
+    background-color:rgb(0, 153, 255);
+    font-size: 100%;
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hij3{
+    background-color: rgb(53,66,74);
+    color: white;
+    font-size:100;  
+    ;
+    height: 200px;
+    padding: 0 50px 0 1%;
+}
+.granpadre{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.pared{
+    margin-top: 20px;
+}
+
+.Padre div img{
+    width: 700px;
+
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 600px;
+    background-color:lightgray;
+    padding: 7%;
+    
+}
+
+
+
+.Padre2{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 8px;
+  
+    
+}
+
+.granpadre2{
+   display: flex;
+    
+    
+}
+.Pa2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Pa2 div{
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+    
+    
+}
+
+
+.hijP4{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gP{
+    display: flex;
+    justify-content: space-around;
+    gap: 222px;
+   
+}
+
+.Pa2 div input{
+
+    width: 692px;
+    height: 30px;
+    margin: 0 0 4px 0;
+}
+
+
+
+.a{
+   text-decoration: none;
+   border:1px solid black;
+   width: 688px;
+   text-align: center;
+   height: 20%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color:rgb(255, 76, 44) ;
+   color: white;
+}
+
+.pared2{
+    margin: 3px 0 0 0;
+}
+.Pa2 .Mensaje input{
+    height: 100px;
+    display: flex; 
+}
+
+
+.hijP4{
+    background-color: rgb(53,66,74);
+    width: 320px;
+    color: white;
+    height: 427px;
+}
+
+
+
+.hijP4 .hijP5{
+    background-color: rgb(53,66,74);
+    width: 300px;
+    color: white;
+   padding: 2%;
+}
+
+.hijP4 img{
+    width: 320px;
+    height:209px;
+
+}
+
+.hijP5 p{
+    padding: 0 0 0 3%;
+}
+.hijP5 h2{
+    margin: 0 0 0 3%;
+}
+
+
+
+
+.container01{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+   width: 682px;
+   gap:15px;
+    
+}
+
+
+
+.divnoso{
+    background-color: rgb(53,66,74);
+    padding: 2%;
+    color: white;
+}
+
+span{
+    color: rgb(38, 133, 177);
+}
+
+
+
+
+@media(max-width:750px){
+    header{
+        background-color: black;
+        display: flex;
+        justify-content:space-around;
+        height:130px;
+        align-items: center;
+    }
+
+
+    h1{
+        color:white;
+        padding: 0 100px 0 0;
+        font-size: 20px;
+    }
+    .conter1{
+    
+        display: flex;
+        align-items: center;
+        
+    }
+    .conter1 ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        
+    }
+    
+    .conter1 ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    section{
+        display:flex;
+        background: url(../image/cabecera.jpg) 0 -500px;
+        background-size: cover;
+        align-items: center;
+        height: 400px;
+        justify-content: center;
+        flex-direction: column;
+        
+
+    }
+
+
+
+    .titulo1{
+        display: flex;
+        font-size: 43px;
+     
+    }
+    .p1{
+        font-size: 15px;
+        color: white;
+        
+    
+    }
+    
+    .container2{
+        display:flex;
+        justify-content: space-around;
+        color:white;
+        background-color: black;
+       height: 120px;
+        align-items: center;
+     
+       
+    }
+    .container2 h2{
+        font-size: 15px;
+       padding: 0 0 0 10px;
+    }
+    
+       
+    
+    
+    .container01{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .subcontainer{
+        display: flex;
+        flex-direction: column;
+       width: 320px;
+       gap:20px;
+        
+    }
+    
+    .subcontainer p{
+        font-size: 14px;
+    }
+    
+
+
+    .hijP5{
+        background-color: rgb(53,66,74);
+        width: 300px;
+        color: white;
+       padding: 2%;
+    }
+    
+    .hijP4 img{
+        width: 320px;
+        height:209px;
+    
+    }
+        
+    .containerP h2{
+        font-size: 20px;
+    }
+    .hijo1P{
+      
+        font-size: 100%;
+        text-align: center;
+       
+    }
+    footer{
+        height: 40px;
+        background-color:rgb(0, 153, 255);
+        font-size: 100%;
+        color:white;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+
+    
+
+
+    .granpadre{
+        display: flex;
+        justify-content: space-evenly; 
+        gap: 20px;
+    }
+    
+    .pared{
+        margin-top: 20px;
+    }
+    
+    .Padre div img{
+        width: 700px;
+    
+    }
+    
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 300px;
+        background-color:lightgray;
+        padding: 7%;
+        
+    }
+    
+    
+    .gP{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+       
+    }
+    
+    .Pa2 div input{
+    
+        width: 315px;
+        height: 30px;
+        margin: 0 0 4px 0;
+    }
+    
+    
+    
+    .a{
+       text-decoration: none;
+       border:1px solid black;
+       width: 316px;
+       text-align: center;
+       height: 20%;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       background-color:rgb(255, 76, 44) ;
+       color: white;
+    }
+
+    
+   
+    
+    
+    .hijP4{
+        background-color: rgb(53,66,74);
+        width: 320px;
+        color: white;
+        height: 400px;
+    }
+    
+    
+    
+    .hijP4 .hijP5{
+        background-color: rgb(53,66,74);
+        width: 300px;
+        color: white;
+       padding: 2%;
+    }
+    
+    .hijP4 img{
+        width: 320px;
+        height:195px;
+    
+    }
+    
+    .hijP5 p{
+        padding: 0 0 0 3%;
+    }
+    .hijP5 h2{
+        margin: 0 0 0 3%;
+    }
+
+
+   
+    
+}
+
+@media(max-width:550px){
+
+    header{
+        background-color: black;
+        display: flex;
+        justify-content:space-around;
+        height:130px;
+        align-items: center;
+        
+    }
+
+
+    h1{
+        color:white;
+        padding: 0 100px 0 0;
+        font-size: 17px;
+        padding: 0 0 0 12px;
+    }
+    .conter1{
+    
+        display: flex;
+        align-items: center;
+        
+    }
+   
+    
+
+    section{
+        display:flex;
+        background: url(../image/cabecera.jpg) 0 -500px;
+        background-size: cover;
+        align-items: center;
+        height: 200px;
+        justify-content: center;
+        flex-direction: column;
+        
+
+    }
+
+
+
+    .titulo1{
+        display: flex;
+        font-size: 32px;
+     
+    }
+    .p1{
+        font-size: 12px;
+        color: white;
+        
+    
+    }
+
+
+
+    .container2{
+        display:flex;
+        justify-content: space-around;
+        color:white;
+        background-color: black;
+       height: 120px;
+        align-items: center;
+     
+       
+    }
+
+    .container2 h2{
+        font-size: 15px;
+       padding: 0 0 0 10px;
+    }
+    
+       
+    
+    .hidel2 input{
+        width: 195px;
+        height: 29px;
+    }
+
+
+    
+    .hidel2 a{
+        
+        text-decoration: none;
+        border: 2px solid transparent;
+        background-color: rgb(255, 76, 44) ;
+        color:white;
+        padding:8px ;
+
+        margin: 0 12px 0 0 ;
+        
+    }
+
+
+
+
+    
+    .container01{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .subcontainer{
+        display: flex;
+        flex-direction: column;
+       width: 200px;
+       gap:20px;
+        
+    }
+    
+    .subcontainer p{
+        font-size: 14px;
+    }
+    
+
+    .containerP p{
+        font-size: 12px;
+    }
+
+    
+    
+    
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 200px;
+        background-color:lightgray;
+        
+        
+    }
+
+    .hij3{
+        background-color: rgb(53,66,74);
+        color: white;
+        font-size:12px;  
+        height: 220px;
+        width: 220px;
+        
+    }
+
+    
+
+    .gP{
+        display: flex;
+        justify-content: space-around; 
+       
+    }
+    
+    .Pa2 div input{
+    
+        width: 200px;
+        height: 30px;
+        
+    }
+    
+    
+    
+    .a{
+       text-decoration: none;
+       border:1px solid black;
+       width: 200px;
+       text-align: center;
+       height: 20%;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       background-color:rgb(255, 76, 44) ;
+       color: white;
+    }
+
+    
+   
+    
+    
+    .hijP4{
+        background-color: rgb(53,66,74);
+      
+        color: white;
+        height: 400px;
+        margin: 0 20px 0 0;
+    }
+    
+    
+    
+    .hijP4 .hijP5{
+        background-color: rgb(53,66,74);
+        width: 200px;
+        color: white;
+       padding: 2%;
+    }
+    
+    .hijP4 img{
+        width: 250px;
+        height:171px;
+    
+    }
+    
+    .hijP5 p{
+       font-size: 12px;
+
+    }
+    
+    .tSer{
+        width: 0px;
+    }
+
+    
+
+    
+     
+
+    .granpadre2{
+    display: flex; 
+    width: 1x;  
+    }
+
+    .Pa2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 20px;
+        
+    }
+    
+    .Pa2 div{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        
+    }
+     
+}
+
+
+
+@media(max-width:360px){
+    header{
+        display: flex;
+        background-color: black;
+        display: flex;
+        justify-content:space-around;
+        height:130px;
+        align-items: center;
+        flex-direction: column;
+       
+        
+    }
+
+    .conter1 ul{
+        display: flex;
+        list-style: none; 
+        font-size: 70%; 
+    }
+
+    h1{
+        display: flex;
+        
+        color:white;
+        padding: 0 100px 0 0;
+        font-size: 19px;
+        padding: 0 0 0 12px;
+    }
+    .conter1{
+    
+        display: flex;
+        align-items: center;
+        padding:0 20px 0 0 ;
+        
+    }
+   
+    
+
+    section{
+        display:flex;
+        background: url(../image/cabecera.jpg) 0 -500px;
+        background-size: cover;
+        align-items: center;
+        height: 200px;
+        justify-content: center;
+        flex-direction: column;
+        
+
+    }
+
+
+
+    .titulo1{
+        display: flex;
+        font-size: 22px;
+     
+    }
+    .p1{
+        text-align: center;
+        font-size: 12px;
+        color: white;
+        
+    
+    }
+
+
+
+    .container2{
+        display:flex;
+        justify-content: space-around;
+        color:white;
+        background-color: black;
+       height: 120px;
+        align-items: center;
+     
+       
+    }
+
+    .container2 h2{
+        font-size: 15px;
+       padding: 0 0 0 10px;
+    }
+    
+       
+    
+    .hidel2 input{
+        width: 80px;
+        height: 29px;
+    }
+
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    .hidel2 a{
+        
+        text-decoration: none;
+        border: 2px solid transparent;
+        background-color: rgb(255, 76, 44) ;
+        color:white;
+        padding:8px ;
+
+        margin: 0 12px 0 0 ;
+        
+    }
+
+    .hidel2 input{
+        width: 200px;
+    }
+
+
+    
+    .container01{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .subcontainer{
+        display: flex;
+        flex-direction: column;
+       width: 200px;
+       gap:20px;
+        
+    }
+    
+    .subcontainer p{
+        font-size: 14px;
+       
+    }
+
+    .containerP{
+        height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:20px;
+    margin:20px 0;
+    }
+    
+    .container01{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .ima2{
+        height: 100px;
+    }
+    .hijP5{
+        text-align: center;
+    }
+
+    .subcontainer div{
+        text-align: center;
+    }
+    
+    
+    .granpadre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Padre2{
+        display: flex;
+        align-items: center;
+    }
+    .tSer{
+        margin: 0 250px 0 0 ;
+        text-decoration:underline;
+    }
+
+    .hij3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 56px;
+       width: 230px;
+       padding: 10px;
+        
+       
+    }
+    .hij3 h2{
+        text-align: center;
+    }
+    .hij3 p{
+       text-align: center;
+    }
+
+
+    .gP{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Pa2{
+        display: flex;
+        margin-left: 50px;
+    }
+    .Pa2 div {
+        display: flex;
+       justify-content:center;
+        align-items: center; 
+        
+    }
+    
+    .Pa2 div input{
+       margin-bottom: 24px;
+       width: 190px;
+    }
+    .hijP4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 20px;
+        background-color: aliceblue;
+
+    }
+    .hijP4 img{
+        width: 219px;
+        height: 180px;
+
+    }
+
+
+}
